@@ -3,7 +3,7 @@ import '../src/css/style.css';
 
 // Import Pages
 import Home from "./pages/Home";
-// import Choosing from './pages/Choosing';
+import About from './pages/About';
 
 // Import React Stuff
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
@@ -13,7 +13,7 @@ function App() {
     <Router>
       <Routes>
         <Route path='/' element={<Home />}></Route>
-        {/* <Route path='/choosing' element={<Choosing />}></Route> */}
+        <Route path='/about' element={<About />}></Route>
       </Routes>
     </Router>
   );
