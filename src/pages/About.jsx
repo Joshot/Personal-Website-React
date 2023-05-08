@@ -2,7 +2,21 @@
 import Navbar from "../components/Navbar";
 
 // Import skill
-import communication from '../images.skill/communication.jpg'
+import communication from '../images/skill/communication.png'
+import css from '../images/skill/css.png'
+import figma from '../images/skill/figma.png'
+
+import html from '../images/skill/html.png'
+import javascript from '../images/skill/javascript.png'
+import leadership from '../images/skill/leadership.png'
+
+import microsoft from '../images/skill/microsoft.png'
+import mysql from '../images/skill/mysql.png'
+import php from '../images/skill/php.png'
+
+
+
+
 import dayspic from '../images/project/7daysPic.jpg';
 import prototipe from '../images/project/prototipe.jpg';
 import umnlife from '../images/project/umnLife.jpg';
@@ -38,44 +52,44 @@ const Home = () => {
                     </motion.div>
                     <div className="skill1">
                         <div id="left" className="square">
-                            <img src={dayspic} class="imgPro"/>
-                            <p>Permainan website simulasi kehidupan mahasiswa dari 0 hingga 7 hari</p>
+                            <img src={communication} class="imgPro"/>
+                            <p>Communication</p>
                         </div>
                         <div id="mid" className="square">
-                            <img src={umnlife} class="imgPro"/>
-                            <p>Permainan website simulasi kehidupan mahasiswa dari semester 1 hingga semester 8</p>
+                            <img src={css} class="imgPro"/>
+                            <p>Css</p>
                         </div>
                         <div id="right" className="square">
-                            <img src={prototipe} class="imgPro"/>
-                            <p>Sebuah prototipe desain E-Learning yang dibuat menggunakan Figma</p>
+                            <img src={figma} class="imgPro"/>
+                            <p>Figma</p>
                         </div>
                     </div>
                     <div className="skill2">
                         <div id="right" className="square">
-                            <img src={dayspic} class="imgPro"/>
-                            <p>Permainan website simulasi kehidupan mahasiswa dari 0 hingga 7 hari</p>
+                            <img src={html} class="imgPro"/>
+                            <p>Html</p>
                         </div>
                         <div id="left" className="square">
-                            <img src={umnlife} class="imgPro"/>
-                            <p>Permainan website simulasi kehidupan mahasiswa dari semester 1 hingga semester 8</p>
+                            <img src={javascript} class="imgPro"/>
+                            <p>Javascript</p>
                         </div>
                         <div id="mid" className="square">
-                            <img src={prototipe} class="imgPro"/>
-                            <p>Sebuah prototipe desain E-Learning yang dibuat menggunakan Figma</p>
+                            <img src={leadership} class="imgPro"/>
+                            <p>Leadership</p>
                         </div>
                     </div>
                     <div className="skill3">
                         <div id="mid" className="square">
-                            <img src={dayspic} class="imgPro"/>
-                            <p>Permainan website simulasi kehidupan mahasiswa dari 0 hingga 7 hari</p>
+                            <img src={microsoft} class="imgPro"/>
+                            <p>Microsoft</p>
                         </div>
                         <div id="right" className="square">
-                            <img src={umnlife} class="imgPro"/>
-                            <p>Permainan website simulasi kehidupan mahasiswa dari semester 1 hingga semester 8</p>
+                            <img src={mysql} class="imgPro"/>
+                            <p>MySQL</p>
                         </div>
                         <div id="left" className="square">
-                            <img src={prototipe} class="imgPro"/>
-                            <p>Sebuah prototipe desain E-Learning yang dibuat menggunakan Figma</p>
+                            <img src={php} class="imgPro"/>
+                            <p>PHP</p>
                         </div>
                     </div>
                 </div>
